@@ -39,7 +39,7 @@ class Cart
     public function remove($productId)
     {
         $cart = $this->get();
-        array_slice(
+        array_splice(
             $cart['products'],
             array_search(
                 $productId,
