@@ -26,7 +26,7 @@ class Create extends Component
             'title' => 'required|min:3',
             'description' => 'required|max:180',
             'price' => 'required|numeric',
-            'image' => 'image|max:1024'
+            'image' => 'nullable|image|max:1024'
         ]);
 
         $imageName = '';
