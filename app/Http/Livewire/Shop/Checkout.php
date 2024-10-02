@@ -3,6 +3,7 @@
 namespace App\Http\Livewire\Shop;
 
 use Livewire\Component;
+use App\Facades\Cart;
 
 class Checkout extends Component
 {
