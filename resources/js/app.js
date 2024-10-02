@@ -6,6 +6,9 @@
 
 require('./bootstrap');
 
+let Turbolinks = require('Turbolinks');
+Turbolinks.start();
+
 window.Vue = require('vue');
 
 /**
